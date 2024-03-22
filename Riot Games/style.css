@@ -1,0 +1,40 @@
+ .cabeca{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ 
+ .Logo{
+width: 10%;
+padding-right: 20px;
+ }
+ body{
+    background-color: black;
+ }
+ .cor {
+    color: white;
+ }
+ .logo_jogo{
+
+width: 4%;
+ }
+ .teste{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+
+  
+ }
+ 
+ input, button {padding: 10px;}
+ input {width: 50%;}
+ .lista{
+    flex-direction: row;
+ }
+ 
+
+
+
+
