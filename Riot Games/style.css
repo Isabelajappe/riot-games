@@ -1,40 +1,135 @@
- .cabeca{
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+* {
+   text-decoration: none;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   background: black ;
+   overflow-x: hidden;
+}
 
- }
- 
- .Logo{
-width: 10%;
-padding-right: 20px;
- }
- body{
-    background-color: black;
- }
- .cor {
-    color: white;
- }
- .logo_jogo{
-
-width: 4%;
- }
- .teste{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.conteiner {
+   width: 100%;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 8px;
+}
+.riot_logo{
+   width: 100px;
+}
+.liquid{
+   display: flex;
+  gap: 20px;
+}
+.liquid li{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
 font-weight: 600;
+}
 
-  
- }
- 
- input, button {padding: 10px;}
- input {width: 50%;}
- .lista{
-    flex-direction: row;
- }
- 
+.titulo{
+   color: white;
+   padding: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.card{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+   height: 500px;
+}
+.card p{
+   color: white;
+}
+
+.omen{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.omen img{
+width:500px;
+}
+
+.noticia{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.noticia img{
+   width: 500px;
+}
+
+.atualizacao{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.atualizacao img{
+   width: 500px;
+}
+
+.atualizacao{
+   align-items: center;
+   text-align: center;
+}
 
 
+.arcane{
+   background-image: url(/arcane_dsktp_centerAlignedCrd_BG_2x.jpg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   border-radius: 8px;
+   flex-direction: column;
+}
 
+.arcane input[type=text] {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #FFffff;
+   width: 540px;
+   height: 66px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
 
+.arcane input[type=password] {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #fffffff;
+   width: 540px;
+   height: 66px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.arcane input[type=submit] {
+   color: aqua;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #FFffff;
+   width: 540px;
+   height: 66px;
+   border-radius: 8px;
+}
