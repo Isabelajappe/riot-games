@@ -99,6 +99,8 @@ width:500px;
    height: 100vh;
    border-radius: 8px;
    flex-direction: column;
+   gap: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .arcane input[type=text] {
@@ -110,6 +112,7 @@ width:500px;
    height: 66px;
    border-radius: 8px;
    margin-bottom: 20px;
+
 }
 
 .arcane input[type=password] {
@@ -117,9 +120,9 @@ width:500px;
    justify-content: center;
    align-items: center;
    background: #fffffff;
-   width: 540px;
-   height: 66px;
-   border-radius: 8px;
+   width:540px;
+   height:66px;
+   border-radius:8px;
    margin-bottom: 20px;
 }
 
@@ -133,3 +136,102 @@ width:500px;
    height: 66px;
    border-radius: 8px;
 }
+.sobre{
+   color: white;
+  padding: 100px;
+ 
+}
+
+.sobre img{
+   width: 500px;
+}
+.foto{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+
+}
+.foto img{
+   width: 100;
+}
+.games p{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.suporte{
+   color: white;
+   margin-bottom: 30px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.ajuda{
+   color: white;
+   margin-bottom: 30px;
+}
+.botao input[type=button] {
+
+   background-color: rgb(71, 68, 68);
+   margin-left: 8px;
+   height: 70px;
+   width: 100%;
+   display: flex;
+   color: white;
+   align-items: center;
+   justify-content: center;
+}
+.procurava{
+   color: white;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+
+}
+    .botao input[id=botao9]{
+      background-color: red;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+   margin-left: 830px;}
+
+   .localizacao{
+    display: flex;
+    margin-bottom: 40px;
+   }
+
+  
+   .riot{
+   display: flex;
+    width: 810px;
+    height: 300px;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+    margin-top: ;
+   }
+.legends{
+color: white;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 10px;
+align-items: center;
+justify-content: center;
+gap: 200px;
+}
+   .nosso{
+      color: white;
+      margin-bottom: 50px;
+
+   }
+   .pinguim{
+      display: flex;
+      width: 810px;
+      height: 300px;
+      justify-content: center;
+      gap: 50px;
+      flex-direction: column;
+      margin-left: 1000px;
+   }
