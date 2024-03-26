@@ -21,6 +21,11 @@ body{
 .riot_logo{
    width: 100px;
 }
+.pesquisa input[type=text] {
+   border-radius: 900px;
+   text-align: center;
+}
+
 .liquid{
    display: flex;
   gap: 20px;
@@ -101,13 +106,14 @@ width:500px;
    flex-direction: column;
    gap: 25px;
   font-family: Arial, Helvetica, sans-serif;
+  color: #FFffff;
 }
 
 .arcane input[type=text] {
    display: flex;
    justify-content: center;
    align-items: center;
-   background: #FFffff;
+   background: #ffffff;
    width: 540px;
    height: 66px;
    border-radius: 8px;
@@ -127,7 +133,7 @@ width:500px;
 }
 
 .arcane input[type=submit] {
-   color: aqua;
+   color: rgb(17, 0, 255);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -139,6 +145,9 @@ width:500px;
 .sobre{
    color: white;
   padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+ text-align: justify;
+ text-indent: 5%;
  
 }
 
@@ -165,10 +174,12 @@ width:500px;
    align-items: center;
    justify-content: center;
    display: flex;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .ajuda{
    color: white;
    margin-bottom: 30px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .botao input[type=button] {
 
@@ -188,6 +199,7 @@ width:500px;
    align-items: center;
    justify-content: center;
    display: flex;
+   font-family: Arial, Helvetica, sans-serif;
 
 }
     .botao input[id=botao9]{
@@ -203,15 +215,6 @@ width:500px;
    }
 
   
-   .riot{
-   display: flex;
-    width: 810px;
-    height: 300px;
-    justify-content: center;
-    gap: 50px;
-    flex-direction: column;
-    margin-top: ;
-   }
 .legends{
 color: white;
 display: flex;
@@ -219,19 +222,89 @@ font-family: Arial, Helvetica, sans-serif;
 margin-bottom: 10px;
 align-items: center;
 justify-content: center;
-gap: 200px;
+gap: 330px;
+
 }
    .nosso{
       color: white;
+      display: flex;
       margin-bottom: 50px;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
 
    }
+   .riot{
+      display: flex;
+     width: 400px;
+      }
+      .coluna{
+         display: flex;
+         flex-direction: row;
+         gap: 60px;
+         align-items: center;
+         justify-content: center;
+      }
    .pinguim{
       display: flex;
-      width: 810px;
-      height: 300px;
-      justify-content: center;
-      gap: 50px;
-      flex-direction: column;
-      margin-left: 1000px;
+      width: 400px;
    }
+   .serie{
+      color: white;
+      display: flex;
+     margin-top: 60px;
+     margin-left: 8px;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   .vi{
+      display: flex;
+      width: 420px;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+   }
+   .musica{
+      color: white;
+      margin-top: 60px;
+   }
+   .spotify{
+      margin-top: 30px;
+   }
+
+   .riot:hover{
+      animation-name: isa;
+      animation-duration: 1s;}
+   
+   
+   @keyframes isa {
+      0% {
+         transform: scale(1);
+      }
+   
+      50% {
+         transform: scale(1.2);
+      }
+   
+      100% {
+         transform: scale(1);
+      }
+   }
+   .pinguim:hover{
+      animation-name: isa;
+      animation-duration: 1s;}
+   
+   
+   @keyframes isa {
+      0% {
+         transform: scale(1);
+      }
+   
+      50% {
+         transform: scale(1.2);
+      }
+   
+      100% {
+         transform: scale(1);
+      }
+   }
+
