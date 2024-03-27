@@ -307,4 +307,22 @@ gap: 330px;
          transform: scale(1);
       }
    }
+   .vi:hover{
+      animation-name: isa;
+      animation-duration: 1s;}
+   
+   @keyframes isa {
+      0% {
+         transform: scale(1);
+      }
+   
+      50% {
+         transform: scale(1.2);
+      }
+   
+      100% {
+         transform: scale(1);
+      }
+   }
+
 
